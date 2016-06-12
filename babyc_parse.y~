@@ -79,11 +79,6 @@ nonempty_parameter_list:
         INT ID ',' parameter_list
         |
         INT ID
-	|
-	INT ID LSQUARE NUMBER RSQUARE /*宣告array*/
-	{
-		
-	}
         ;
 
 block:

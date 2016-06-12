@@ -52,7 +52,7 @@ void yyerror();
 "return"      { return RETURN; }
 "char"	{return CHAR;}
 "else"	{return ELSE;}
-"int"         { return INT; }
+"int"         { return TYPE; }
 "break"	{return BREAK;}
 "printf"	{return PRINT;}
 "read"	{return READ;}
